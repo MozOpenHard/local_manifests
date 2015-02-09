@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="mozopenhard"
+           fetch="https://github.com/MozOpenHard/" />
+
+  <remove-project name="device-rockchip-rk30sdk" />
+  <project path="device/rockchip/rk30sdk" name="device-rockchip-rk30sdk" remote="mozopenhard" revision="marsboard-rk3066-px2" />
+
+  <remove-project name="rk3066-kernel" />
+  <project path="kernel" name="rk3066-kernel" remote="mozopenhard" revision="master" />
+
+  <remove-project name="rockchip_u-boot" />
+  <project path="u-boot" name="u-boot-rockchip" remote="mozopenhard" revision="u-boot-rk3066" />
+
+</manifest>
