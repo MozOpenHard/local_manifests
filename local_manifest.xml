@@ -13,4 +13,6 @@
   <remove-project name="rockchip_u-boot" />
   <project path="u-boot" name="u-boot-rockchip" remote="mozopenhard" revision="u-boot-rk3066" />
 
+  <project path="external/i2c-tools" name="i2c-tools" remote="mozopenhard" revision="b2g" />
+
 </manifest>
